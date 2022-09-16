@@ -2,7 +2,7 @@
   "name": "vite-plugin-file",
   "version": "1.0.1",
   "description": "vite plugin test",
-  "main": "index.js",
+  "main": "./dist/vite-plugin-file.js",
   "scripts": {
     "test": "test"
   },
