@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/tcguoxing/vite-plugin-file/tree/master"
+    "url": "https://github.com/tcguoxing/vite-plugin-file.git"
   },
   "keywords": [
     "vite",
