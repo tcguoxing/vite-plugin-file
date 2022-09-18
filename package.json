@@ -7,7 +7,7 @@
     "test": "test"
   },
   "bin": {
-    "vite-plugin-cli": "./dist/vite-plugin-file.js"
+    "vite-plugin-file": "./dist/vite-plugin-file.js"
   },
   "repository": {
     "type": "git",
