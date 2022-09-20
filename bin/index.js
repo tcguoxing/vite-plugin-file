@@ -23,3 +23,8 @@ function run (command) {
     console.log('this is my first plugin.')
 }
 run(command)
+
+export function setConfig(rootP, na) {
+  console.log('rootP', rootP)
+  console.log('na', na)
+}
