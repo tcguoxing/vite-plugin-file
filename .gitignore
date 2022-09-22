@@ -1,5 +1,6 @@
 node_modules
 dist
+test
 # local env files
 .env.local
 .env.*.local
@@ -9,6 +10,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+package-lock.json
 
 # Editor directories and files
 .idea
