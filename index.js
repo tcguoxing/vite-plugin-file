@@ -7,15 +7,13 @@ var path = require('path')
 function checkTodos(rootPath = "src") {
   // 该功能分两步，第一步是找到所有文件
   const callback = (filePath, dirent) => {
-    // console.log('allFilePath: ', filePath) // 这里是文件目录
     if (filePath) {
-      let result = fs.readFile(filePath, "utf8")
+      let result = fs.readFileSync(filePath, "utf8")
       if(regex.test(String(result))){
           hasTodo = false
           console.log(`_______________filePath_______________ \r\n ${filePath}内含有todos。`)
       }
     }
-    // console.log('allDirent: ', dirent)
   }
   walkSync(rootPath.trim() !== "" ? rootPath.trim() : "src", callback);
   if (hasTodo) {
@@ -28,8 +26,6 @@ function checkTodos(rootPath = "src") {
 }
 
 function walkSync(currentDirPath, callback) {
-//   var fs = require("fs-extra");
-//   var path = require("path");
   const files = fs.readdirSync(currentDirPath, { withFileTypes: true })
   files.forEach(function (dirent) {
     var filePath = path.join(currentDirPath, dirent.name);

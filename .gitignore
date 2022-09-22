@@ -1,9 +1,10 @@
 node_modules
 dist
 test
+src
+package-lock.json
 # local env files
 .env.local
-.package-lock.json
 .env.*.local
 
 # Log files
