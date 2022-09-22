@@ -4,7 +4,7 @@
   "description": "vite plugin test",
   "main": "index.js",
   "bin": {
-    "vite-plugin-file": "index.js"
+    "vite-plugin-file": "./index.js"
   },
   "scripts": {
     "test": "test"
@@ -19,7 +19,7 @@
     "npm package",
     "test"
   ],
-  "author": "guoxing sun",
+  "author": "Guoxing Sun",
   "license": "MIT",
   "dependencies": {
     "fs-extra": "^10.1.0",
