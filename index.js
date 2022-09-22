@@ -1,10 +1,10 @@
-var rootPath = "test";
+var rootPath = "src";
 var regex = /\/\/[ ]*(todos)/;
 var hasTodo = false
 var fs = require('fs-extra')
 var path = require('path')
 
-function checkTodos(rootPath = "test") {
+function checkTodos(rootPath = "src") {
   // 该功能分两步，第一步是找到所有文件
   const callback = (filePath, dirent) => {
     // console.log('allFilePath: ', filePath) // 这里是文件目录
