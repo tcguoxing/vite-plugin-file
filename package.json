@@ -2,9 +2,9 @@
   "name": "vite-plugin-file",
   "version": "1.0.3",
   "description": "vite plugin test",
-  "main": "./bin/index.js",
+  "main": "index.js",
   "bin": {
-    "vite-plugin-file": "bin/index.js"
+    "vite-plugin-file": "index.js"
   },
   "scripts": {
     "test": "test"
